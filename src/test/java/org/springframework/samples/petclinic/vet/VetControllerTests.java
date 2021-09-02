@@ -40,12 +40,26 @@ import org.springframework.test.web.servlet.ResultActions;
 @WebMvcTest(VetController.class)
 class VetControllerTests {
 
+		/** Purposely, misaligned to cause auto-formatting.
+		 * {@link}
+		 * {@link MockMvc()}
+		 * {@link MockMvc missingbracket
+		 * {@link
+		 * MockMvc}
+		 */
 	@Autowired
 	private MockMvc mockMvc;
 
+		/**
+		 * <a href="
+		 * https://...">
+		 * label</a>
+		 */
 	@MockBean
 	private VetRepository vets;
 
+		/**
+		 */
 	@BeforeEach
 	void setup() {
 		Vet james = new Vet();
