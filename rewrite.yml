@@ -44,3 +44,13 @@ recipeList:
   - org.openrewrite.staticanalysis.ChainStringBuilderAppendCalls
   - org.openrewrite.staticanalysis.ReplaceStringBuilderWithString
   - org.openrewrite.java.ShortenFullyQualifiedTypeReferences
+
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.csw.upgradeDependency
+displayName: Upgrade Maven dependency version example
+recipeList:
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: org.webjars
+      artifactId: bootstrap*
+      newVersion: 3.4.X
