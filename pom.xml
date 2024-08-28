@@ -166,7 +166,8 @@
           </execution>
         </executions>
         <configuration>
-          <verbose>true</verbose>
+          <verbose>false</verbose>
+          <offline>true</offline>
           <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
           <generateGitPropertiesFile>true</generateGitPropertiesFile>
           <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties
