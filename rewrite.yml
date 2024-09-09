@@ -1,4 +1,5 @@
 ---
+# DEMO 3
 type: specs.openrewrite.org/v1beta/recipe
 name: org.csw.myRecipe
 displayName: Composite recipe to force style
@@ -44,24 +45,7 @@ recipeList:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# DEMO 5
 ---
 type: specs.openrewrite.org/v1beta/recipe
 name: org.csw.upgradeDependency

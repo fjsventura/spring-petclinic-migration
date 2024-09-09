@@ -1,4 +1,5 @@
 #!/bin/bash
+# DEMO 1
 
 mvnd -U org.openrewrite.maven:rewrite-maven-plugin:run \
     -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-spring:RELEASE \
