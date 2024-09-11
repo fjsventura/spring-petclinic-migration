@@ -1,5 +1,5 @@
 #!/bin/bash
-# DEMO 1
+# DEMO 1 - SpringBoot 3.x Best Practices
 
 mvnd -U org.openrewrite.maven:rewrite-maven-plugin:run \
     -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-spring:RELEASE \

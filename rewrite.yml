@@ -1,5 +1,5 @@
 ---
-# DEMO 3
+# DEMO 3 - Automatic Formatting
 type: specs.openrewrite.org/v1beta/recipe
 name: org.csw.myRecipe
 displayName: Composite recipe to force style
@@ -45,7 +45,7 @@ recipeList:
 
 
 
-# DEMO 5
+# DEMO 4.1 - Upgrade dependency version
 ---
 type: specs.openrewrite.org/v1beta/recipe
 name: org.csw.upgradeDependency
